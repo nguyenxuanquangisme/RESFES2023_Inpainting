@@ -1,7 +1,8 @@
 import os
 import torch
 import torch.nn as nn
-
+#nguyenxuanquangisme
+print('nguyenxuanquangisme')
 # a complex model consisted of several nets, and each net will be explicitly defined in other py class files
 class BaseModel(nn.Module):
     def __init__(self):
